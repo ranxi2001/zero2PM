@@ -1,16 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
   <defs>
-    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#6366f1"/>
       <stop offset="100%" stop-color="#f43f5e"/>
     </linearGradient>
   </defs>
-  <!-- Clipboard body -->
-  <rect x="8" y="10" width="32" height="32" rx="4" stroke="url(#logoGradient)" stroke-width="2.5" fill="none"/>
-  <!-- Clipboard clip -->
-  <path d="M18 10V8a6 6 0 0 1 12 0v2" stroke="url(#logoGradient)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-  <!-- Checkmark -->
-  <path d="M16 26l5 5 11-12" stroke="url(#logoGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <!-- Zero slash -->
-  <ellipse cx="24" cy="24" rx="0" ry="0" fill="none"/>
+  <!-- Circle = "0" / compass face -->
+  <circle cx="24" cy="24" r="19" stroke="url(#g)" stroke-width="2.5" fill="none"/>
+  <!-- Needle / slash: SW to NE -->
+  <line x1="17" y1="33" x2="33" y2="12" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arrowhead at NE tip -->
+  <polyline points="29,10 33,12 31,17" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Center dot -->
+  <circle cx="24" cy="24" r="2.5" fill="url(#g)"/>
+  <!-- Cardinal ticks -->
+  <line x1="24" y1="1" x2="24" y2="5" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="24" y1="43" x2="24" y2="47" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="1" y1="24" x2="5" y2="24" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="43" y1="24" x2="47" y2="24" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
