@@ -1,0 +1,28 @@
+modules:
+  - title: "PM 基础"
+    slug: "learn-pm-basic"
+    articles: []
+  - title: "产品设计"
+    slug: "learn-pm-design"
+    articles: []
+  - title: "产品策略"
+    slug: "learn-pm-strategy"
+    articles: []
+  - title: "数据分析"
+    slug: "learn-pm-data"
+    articles: []
+  - title: "项目管理"
+    slug: "learn-pm-project"
+    articles: []
+  - title: "用户增长"
+    slug: "learn-pm-growth"
+    articles: []
+  - title: "PM 面试"
+    slug: "learn-pm-interview"
+    articles: []
+  - title: "工具箱"
+    slug: "learn-pm-tools"
+    articles: []
+  - title: "Final Project"
+    slug: "final-project"
+    articles: []

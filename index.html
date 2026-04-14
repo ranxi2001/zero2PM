@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function(){var s=localStorage.getItem('z2p-theme');var t=s||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',t);})();
+    </script>
+    <meta name="description" content="从零入门产品经理——需求分析、产品设计、数据驱动、项目管理、用户增长，完整学习路线。">
+    <meta name="keywords" content="产品经理, PM, 产品设计, 需求分析, 数据分析, 项目管理, 用户增长, 面试">
+    <title>Zero2PM | 从零入门产品经理</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Noto+Sans+SC:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=3">
+</head>
+
+<body>
+    <div class="page-shell">
+        <nav class="site-nav">
+            <div class="nav-inner">
+                <a href="#" class="brand">
+                    <img src="assets/images/logo.svg" alt="Zero2PM logo" class="brand-logo">
+                    <span class="brand-text">Zero2PM</span>
+                </a>
+                <button class="nav-toggle" type="button" aria-label="切换导航">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="nav-links">
+                    <a href="learn-pm-basic/index.html">PM 基础</a>
+                    <a href="learn-pm-design/index.html">产品设计</a>
+                    <a href="learn-pm-data/index.html">数据分析</a>
+                    <a href="https://onefly.top/zero2Agent/" target="_blank" rel="noopener" class="friend-link-lc">zero2Agent</a>
+                    <a href="https://github.com/ranxi2001/zero2PM" target="_blank" rel="noopener">GitHub</a>
+                    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换主题" title="切换主题">
+                        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                    </button>
+                    <a href="learn-pm-basic/index.html">开始阅读 →</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="hero">
+            <div class="hero-inner">
+                <section class="hero-copy">
+                    <div class="eyebrow">📋 从零入门产品经理 · 面向转行者与初学者的系统化教程</div>
+                    <h1>从<span>想做产品</span><br>到<span>成为产品经理</span></h1>
+                    <p>
+                        面向零基础的产品经理入门教程。不堆方法论名词，不停留在纸上谈兵——从核心思维出发，
+                        覆盖需求分析、产品设计、数据驱动、项目管理，最终落到真实产品案例。
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="learn-pm-basic/index.html">从第一篇开始读</a>
+                        <a class="button button-secondary" href="learn-pm-design/index.html">产品设计系列</a>
+                    </div>
+                    <ul class="hero-meta">
+                        <li>
+                            <strong>8</strong>
+                            <span>核心模块</span>
+                        </li>
+                        <li>
+                            <strong>0→1</strong>
+                            <span>完整学习路线</span>
+                        </li>
+                        <li>
+                            <strong>持续更新</strong>
+                            <span>数据分析 / 实战项目</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="hero-decoration">
+                <div class="hero-card">
+                    <div class="terminal">
+                        <div class="terminal-top">
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-title">product_thinking.md</span>
+                        </div>
+                        <div class="terminal-body"><div><span style="color:#c084fc">##</span> <span style="color:#60a5fa">产品经理核心能力模型</span></div><div></div><div><span style="color:#4a4a5a">### 需求分析</span></div><div>- 用户调研 → 痛点提炼 → 需求优先级</div><div><span style="color:#4a4a5a">### 产品设计</span></div><div>- 信息架构 → 交互流程 → <span style="color:#818cf8">PRD 文档</span></div><div><span style="color:#4a4a5a">### 数据驱动</span></div><div>- 指标体系 → <span style="color:#f43f5e">AB 测试</span> → 增长飞轮</div><div><span style="color:#4a4a5a">### 项目推进</span></div><div>- 需求评审 → 排期跟进 → <span style="color:#818cf8">上线复盘</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Modules -->
+        <section class="section" id="roadmap">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <h2>学习路线</h2>
+                    <p>八个模块按产品经理能力模型递进，从基础认知到专业技能到求职实战，最终落到真实产品项目。</p>
+                </div>
+                <div class="roadmap-grid">
+
+                    <a class="roadmap-card" href="learn-pm-basic/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">01</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>PM 基础</h3>
+                        <p>什么是产品经理、产品思维是什么、用户需求 vs 业务需求、产品经理的一天、不同行业的 PM 差异。建立正确的职业认知。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-design/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">02</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>产品设计</h3>
+                        <p>需求采集与分析、用户画像、信息架构、交互设计、PRD 撰写、原型工具实操——从想法到可落地的产品方案。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-strategy/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">03</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>产品策略</h3>
+                        <p>商业模式画布、竞品分析框架、市场定位、产品路线图、MVP 与 PMF——从执行层面上升到战略层面思考。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-data/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">04</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>数据分析</h3>
+                        <p>数据指标体系、漏斗分析、AB 测试、用户行为分析、SQL 基础、数据看板搭建——用数据驱动产品决策。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-project/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">05</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>项目管理</h3>
+                        <p>敏捷开发流程、需求评审、排期管理、跨部门协作、风险控制、上线与复盘——把方案真正推到线上。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-growth/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">06</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>用户增长</h3>
+                        <p>增长模型、AARRR 漏斗、用户生命周期管理、留存策略、裂变拉新、运营活动设计——让产品持续增长。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-interview/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">07</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>PM 面试</h3>
+                        <p>简历撰写、作品集准备、高频面试题拆解、产品 Sense 题、估算题、Case Study——拿到产品经理 Offer。</p>
+                    </a>
+
+                    <a class="roadmap-card" href="learn-pm-tools/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">08</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>工具箱</h3>
+                        <p>Figma / Axure 原型设计、SQL 数据查询、飞书/Jira 项目协作、数据分析工具——PM 必备工具技能。</p>
+                    </a>
+
+                    <a class="roadmap-card" style="opacity:0.6;" href="final-project/index.html">
+                        <div class="roadmap-card-head">
+                            <div class="roadmap-index">09</div>
+                            <span class="module-badge module-badge--pending">待开始</span>
+                        </div>
+                        <h3>实战项目</h3>
+                        <p>完整产品从 0 到 1 实战。真实业务场景、有用户、有数据、有迭代——不是纸上谈兵，而是能放进作品集的完整项目。</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Why this project -->
+        <section class="section" id="audience">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <h2>为什么做这个项目</h2>
+                    <p>很多人想转行做产品经理，但一开始就遇到了这些问题。</p>
+                </div>
+                <div class="intro-grid">
+                    <article class="intro-card">
+                        <h3>不清楚产品经理到底做什么</h3>
+                        <p>听说 PM 是"小 CEO"，但实际工作不是写 PPT 就是催进度？搞不清产品思维和项目管理的边界，不知道真正的价值输出在哪。</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>方法论看了很多，不会落地</h3>
+                        <p>用户画像、KANO 模型、增长飞轮说起来头头是道，但面对真实需求时还是不知道怎么拆解、怎么排优先级、怎么写 PRD。</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>想转行但不知道从哪里开始</h3>
+                        <p>技术转产品、运营转产品、应届入行——每条路径需要补的能力不一样。没有系统路线，容易东学一点西学一点，最后面试时什么都说不清。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats bar -->
+        <section class="section stats-section">
+            <div class="section-inner">
+                <div class="stats-bar">
+                    <div class="stats-item">
+                        <span class="stats-value">8</span>
+                        <span class="stats-label">核心模块</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value">0→1</span>
+                        <span class="stats-label">完整学习路线</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value">实战</span>
+                        <span class="stats-label">真实产品案例</span>
+                    </div>
+                    <div class="stats-divider"></div>
+                    <div class="stats-item">
+                        <span class="stats-value stats-value--mono">Zero→PM</span>
+                        <span class="stats-label">系统化入门路线</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-inner footer-inner--center">
+                <span class="footer-desc">Zero2PM · 从零入门产品经理 · Built for future PMs.</span>
+                <div class="footer-right">
+                    <a href="https://onefly.top" target="_blank" rel="noopener" class="footer-link">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        Onefly
+                    </a>
+                    <a href="https://github.com/ranxi2001/zero2PM" target="_blank" rel="noopener" class="footer-link">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js?v=10"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+title: zero2PM
+description: 从零入门产品经理——需求分析、产品设计、数据驱动、项目管理，完整学习路线。
+url: https://onefly.top
+markdown: kramdown
+highlighter: rouge
+baseurl: /zero2PM
+
+plugins:
+  - jekyll-sitemap
+
+include:
+  - learn-pm-basic
+  - learn-pm-design
+  - learn-pm-strategy
+  - learn-pm-data
+  - learn-pm-project
+  - learn-pm-growth
+  - learn-pm-interview
+  - learn-pm-tools
+  - final-project
+
+exclude:
+  - README.md
+  - requirements.txt
+  - .gitignore
+  - __pycache__

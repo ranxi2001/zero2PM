@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <!-- Clipboard body -->
+  <rect x="8" y="10" width="32" height="32" rx="4" stroke="url(#logoGradient)" stroke-width="2.5" fill="none"/>
+  <!-- Clipboard clip -->
+  <path d="M18 10V8a6 6 0 0 1 12 0v2" stroke="url(#logoGradient)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Checkmark -->
+  <path d="M16 26l5 5 11-12" stroke="url(#logoGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Zero slash -->
+  <ellipse cx="24" cy="24" rx="0" ry="0" fill="none"/>
+</svg>
