@@ -55,6 +55,9 @@ modules:
         slug: "toc-pm/01-toc-pm-role"
       - title: "C 端 PM 高频面试题"
         slug: "toc-pm/02-toc-pm-questions"
+      - section: "Web3 产品方向"
+      - title: "富途 Web3 PM 真题"
+        slug: "web3-pm/01-futu-web3-pm-real"
   - title: "工具箱"
     slug: "learn-pm-tools"
     articles: []
