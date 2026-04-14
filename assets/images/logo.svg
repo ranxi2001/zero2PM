@@ -1,21 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#f43f5e"/>
+    <!-- Background Circle Gradient (Zero) -->
+    <linearGradient id="circleGrad" x1="16" y1="104" x2="80" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#A855F7"/>
     </linearGradient>
+    
+    <!-- Foreground Arrow Gradient (Growth) -->
+    <linearGradient id="arrowGrad" x1="32" y1="88" x2="88" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+
+    <!-- Drop shadow for 3D layered effect -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    
+    <!-- Mask to cleanly cut out the top-right intersection -->
+    <mask id="cutout">
+      <rect x="0" y="0" width="120" height="120" fill="white" />
+      <path d="M 48 72 L 88 32 L 88 60 M 88 32 L 60 32" stroke="black" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+    </mask>
   </defs>
-  <!-- Circle = "0" / compass face -->
-  <circle cx="24" cy="24" r="19" stroke="url(#g)" stroke-width="2.5" fill="none"/>
-  <!-- Needle / slash: SW to NE -->
-  <line x1="17" y1="33" x2="33" y2="12" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Arrowhead at NE tip -->
-  <polyline points="29,10 33,12 31,17" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <!-- Center dot -->
-  <circle cx="24" cy="24" r="2.5" fill="url(#g)"/>
-  <!-- Cardinal ticks -->
-  <line x1="24" y1="1" x2="24" y2="5" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="24" y1="43" x2="24" y2="47" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="1" y1="24" x2="5" y2="24" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="43" y1="24" x2="47" y2="24" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Background Circle (Zero) -->
+  <circle cx="48" cy="72" r="32" stroke="url(#circleGrad)" stroke-width="14" mask="url(#cutout)" />
+
+  <!-- Foreground Group: Arrow and Nodes -->
+  <g filter="url(#shadow)">
+    <!-- Arrow Stem and Head (Journey to PM) -->
+    <path d="M 32 88 L 88 32 L 88 60 M 88 32 L 60 32" stroke="url(#arrowGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Bright dot emphasizing the target / PM goal -->
+    <circle cx="88" cy="32" r="6" fill="#FFFFFF" />
+    
+    <!-- Node marking the initial "0" state -->
+    <circle cx="32" cy="88" r="5" fill="#4F46E5" />
+    <circle cx="32" cy="88" r="2.5" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Subtle decorative stars/sparkles representing insights -->
+  <circle cx="20" cy="35" r="3" fill="#A855F7" opacity="0.6" />
+  <circle cx="85" cy="95" r="4.5" fill="#F43F5E" opacity="0.5" />
+  <circle cx="102" cy="55" r="2.5" fill="#F97316" opacity="0.7" />
+  <circle cx="28" cy="18" r="2" fill="#4F46E5" opacity="0.5" />
 </svg>

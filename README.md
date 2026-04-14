@@ -1,4 +1,5 @@
 <div align="center">
+<img src="assets/images/logo.svg" alt="zero2PM Logo" width="120" height="120" />
 
 # zero2PM
 
