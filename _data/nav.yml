@@ -45,6 +45,8 @@ modules:
         slug: "ai-pm/02-ai-pm-questions"
       - title: "字节跳动 AI PM 真题"
         slug: "ai-pm/03-bytedance-ai-pm-real"
+      - title: "小红书 AI 产品实习真题"
+        slug: "ai-pm/04-xiaohongshu-ai-pm-real"
       - section: "B 端产品方向"
       - title: "B 端 PM 岗位全解析"
         slug: "tob-pm/01-tob-pm-role"
