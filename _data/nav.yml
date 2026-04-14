@@ -1,10 +1,26 @@
 modules:
   - title: "PM 基础"
     slug: "learn-pm-basic"
-    articles: []
+    articles:
+      - title: "什么是产品经理"
+        slug: "01-what-is-pm"
+      - title: "产品思维到底是什么"
+        slug: "02-product-thinking"
+      - title: "用户需求 vs 业务需求"
+        slug: "03-user-vs-business-needs"
+      - title: "产品经理的一天"
+        slug: "04-a-day-of-pm"
+      - title: "不同行业的 PM 有什么不同"
+        slug: "05-pm-across-industries"
   - title: "产品设计"
     slug: "learn-pm-design"
-    articles: []
+    articles:
+      - title: "需求从哪里来"
+        slug: "01-where-requirements-come-from"
+      - title: "用户画像：从模糊感觉到清晰人物"
+        slug: "02-user-persona"
+      - title: "需求优先级：什么先做，什么不做"
+        slug: "03-requirement-priority"
   - title: "产品策略"
     slug: "learn-pm-strategy"
     articles: []
