@@ -214,6 +214,16 @@ code, pre { font-family: var(--font-mono); }
 
 .nav-module.is-open .nav-articles { display: block; }
 
+.nav-section-label {
+    display: block;
+    padding: 10px 8px 4px 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
 .nav-article {
     display: block;
     padding: 5px 8px 5px 12px;

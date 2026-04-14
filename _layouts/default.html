@@ -107,11 +107,15 @@
                     {% if module.articles.size > 0 %}
                     <div class="nav-articles">
                         {% for article in module.articles %}
+                        {% if article.section %}
+                        <span class="nav-section-label">{{ article.section }}</span>
+                        {% else %}
                         {% assign article_path = module.slug | append: '/' | append: article.slug %}
                         <a href="{{ site.baseurl }}/{{ article_path }}/index.html"
                            class="nav-article{% if page.url contains article.slug %} is-current{% endif %}">
                             {{ article.title }}
                         </a>
+                        {% endif %}
                         {% endfor %}
                     </div>
                     {% endif %}
@@ -189,7 +193,7 @@
     <!-- Flat nav list for prev/next pager -->
     <script>
         window.Z2P_BASE = "{{ site.baseurl }}";
-        window.Z2P_NAV = [{% for module in site.data.nav.modules %}{% for article in module.articles %}{"path":"{{ module.slug }}/{{ article.slug }}","title":"{{ article.title | replace: '"', '\"' }}"},{% endfor %}{% endfor %}];
+        window.Z2P_NAV = [{% for module in site.data.nav.modules %}{% for article in module.articles %}{% unless article.section %}{"path":"{{ module.slug }}/{{ article.slug }}","title":"{{ article.title | replace: '"', '\"' }}"},{% endunless %}{% endfor %}{% endfor %}];
     </script>
     <script src="{{ site.baseurl }}/assets/js/app.js?v=10"></script>
 </body>

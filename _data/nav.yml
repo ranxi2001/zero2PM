@@ -35,7 +35,24 @@ modules:
     articles: []
   - title: "PM 面试"
     slug: "learn-pm-interview"
-    articles: []
+    articles:
+      - title: "面试通关指南"
+        slug: "01-interview-guide"
+      - section: "AI 产品方向"
+      - title: "AI PM 岗位全解析"
+        slug: "ai-pm/01-ai-pm-role"
+      - title: "AI PM 高频面试题"
+        slug: "ai-pm/02-ai-pm-questions"
+      - section: "B 端产品方向"
+      - title: "B 端 PM 岗位全解析"
+        slug: "tob-pm/01-tob-pm-role"
+      - title: "B 端 PM 高频面试题"
+        slug: "tob-pm/02-tob-pm-questions"
+      - section: "C 端产品方向"
+      - title: "C 端 PM 岗位全解析"
+        slug: "toc-pm/01-toc-pm-role"
+      - title: "C 端 PM 高频面试题"
+        slug: "toc-pm/02-toc-pm-questions"
   - title: "工具箱"
     slug: "learn-pm-tools"
     articles: []
