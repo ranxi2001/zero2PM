@@ -49,6 +49,8 @@ modules:
         slug: "ai-pm/04-xiaohongshu-ai-pm-real"
       - title: "AI PM 高频业务题 30 问"
         slug: "ai-pm/05-ai-pm-business-questions"
+      - title: "字节 AI PM 社招真题 9 问"
+        slug: "ai-pm/06-bytedance-ai-pm-social-real"
       - section: "B 端产品方向"
       - title: "B 端 PM 岗位全解析"
         slug: "tob-pm/01-tob-pm-role"
