@@ -68,7 +68,19 @@ modules:
         slug: "web3-pm/01-futu-web3-pm-real"
   - title: "工具箱"
     slug: "learn-pm-tools"
-    articles: []
+    articles:
+      - title: "原型设计工具全解析"
+        slug: "01-prototyping-tools"
+      - title: "PRD 怎么写：模板与工具"
+        slug: "02-prd-writing"
+      - title: "流程图与思维导图"
+        slug: "03-flowchart-mindmap"
+      - title: "项目管理工具"
+        slug: "04-project-management-tools"
+      - title: "数据分析工具"
+        slug: "05-data-analysis-tools"
+      - title: "协作与沟通工具"
+        slug: "06-collaboration-tools"
   - title: "Final Project"
     slug: "final-project"
     articles: []
