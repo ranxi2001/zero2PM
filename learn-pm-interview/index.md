@@ -1,50 +1,83 @@
 ---
 layout: default
-title: PM 面试
-description: "产品经理面试全攻略：面试通关指南、AI PM / B 端 PM / C 端 PM / Web3 PM 分方向高频题与真题解析。字节跳动、小红书、京东、富途等大厂真题。"
+title: "产品经理面试真题 | 字节跳动、小红书、京东、富途大厂 PM 面试题库"
+description: "2025 最新产品经理面试真题合集：字节跳动 AI 产品经理面试题、小红书 AI PM 实习面试、京东产品经理面试 48 问、富途 Web3 PM 真题。覆盖 AI 产品经理、B 端产品经理、C 端产品经理、Web3 产品经理四大方向，含校招社招高频面试题与业务场景题。"
 eyebrow: PM 面试
 ---
 
-# PM 面试：分方向备战指南
+# 产品经理面试真题库：大厂真题 + 高频面试题
 
-> 面试不是背答案，而是展示你的产品思维。这个模块按方向整理高频题和大厂真题，帮你有针对性地准备。
+产品经理面试不是背答案，而是展示你的产品思维、逻辑能力和业务理解。本模块按**岗位方向**整理了大厂产品经理面试真题和高频面试题，帮你有针对性地备战。
 
-## 建议阅读顺序
+**覆盖公司：** 字节跳动、小红书、京东、富途等一线互联网大厂
 
-先读通关指南建立全局认知，再按你目标方向深入准备。
+**覆盖方向：** AI 产品经理、B 端产品经理、C 端产品经理、Web3 产品经理
 
-1. [面试通关指南](./01-interview-guide/index.html) — 面试全流程、准备策略、常见坑
+---
 
-### AI 产品方向
+## 产品经理面试通关指南
 
-2. [AI PM 岗位全解析](./ai-pm/01-ai-pm-role/index.html) — 岗位定义、能力要求、发展路径
-3. [AI PM 高频面试题](./ai-pm/02-ai-pm-questions/index.html) — 高频问题与参考思路
-4. [字节跳动 AI PM 真题](./ai-pm/03-bytedance-ai-pm-real/index.html) — 字节 AI PM 面试真题解析
-5. [小红书 AI 产品实习真题](./ai-pm/04-xiaohongshu-ai-pm-real/index.html) — 小红书 AI 产品实习面试
-6. [AI PM 高频业务题 30 问](./ai-pm/05-ai-pm-business-questions/index.html) — 30 道业务场景题
-7. [字节 AI PM 社招真题 9 问](./ai-pm/06-bytedance-ai-pm-social-real/index.html) — 字节社招真题详解
+不管你面哪个方向，先读这篇建立全局认知。
 
-### B 端产品方向
+- [产品经理面试通关指南](./01-interview-guide/index.html) — 面试全流程拆解、简历准备、常见坑与应对策略
 
-8. [B 端 PM 岗位全解析](./tob-pm/01-tob-pm-role/index.html) — B 端产品经理的独特之处
-9. [B 端 PM 高频面试题](./tob-pm/02-tob-pm-questions/index.html) — B 端方向高频问题
+---
 
-### C 端产品方向
+## AI 产品经理面试题（字节跳动、小红书）
 
-10. [C 端 PM 岗位全解析](./toc-pm/01-toc-pm-role/index.html) — C 端产品经理核心能力
-11. [C 端 PM 高频面试题](./toc-pm/02-toc-pm-questions/index.html) — C 端方向高频问题
-12. [京东产品经理真题 48 问](./toc-pm/03-jd-pm-real/index.html) — 京东 PM 面试 48 道真题
+AI 产品经理是当下最热门的 PM 方向之一。以下真题来自字节跳动、小红书等大厂的校招和社招面试。
 
-### Web3 产品方向
+- [AI 产品经理岗位全解析](./ai-pm/01-ai-pm-role/index.html) — AI PM 岗位定义、核心能力要求、职业发展路径
+- [AI 产品经理高频面试题](./ai-pm/02-ai-pm-questions/index.html) — AI PM 面试最常考的问题与参考思路
+- [字节跳动 AI 产品经理面试真题](./ai-pm/03-bytedance-ai-pm-real/index.html) — 字节跳动 AI PM 校招/实习面试真题逐题解析
+- [小红书 AI 产品经理实习面试真题](./ai-pm/04-xiaohongshu-ai-pm-real/index.html) — 小红书 AI 产品实习面试全流程还原
+- [AI 产品经理高频业务题 30 问](./ai-pm/05-ai-pm-business-questions/index.html) — 30 道 AI PM 业务场景面试题，覆盖大模型、RAG、Agent 等方向
+- [字节跳动 AI 产品经理社招面试真题 9 问](./ai-pm/06-bytedance-ai-pm-social-real/index.html) — 字节 AI PM 社招面试 9 道真题详解
 
-13. [富途 Web3 PM 真题](./web3-pm/01-futu-web3-pm-real/index.html) — 富途 Web3 产品面试真题
+---
 
-## 文章概览
+## B 端产品经理面试题
 
-| 方向 | 文章数 | 覆盖公司 |
-|------|--------|---------|
-| 通用 | 1 篇 | — |
-| AI 产品 | 6 篇 | 字节跳动、小红书 |
-| B 端产品 | 2 篇 | — |
-| C 端产品 | 3 篇 | 京东 |
-| Web3 产品 | 1 篇 | 富途 |
+B 端产品经理侧重业务流程理解、客户需求分析和企业级产品设计能力。
+
+- [B 端产品经理岗位全解析](./tob-pm/01-tob-pm-role/index.html) — B 端 PM 与 C 端 PM 的核心差异、能力模型
+- [B 端产品经理高频面试题](./tob-pm/02-tob-pm-questions/index.html) — B 端方向高频面试题与答题框架
+
+---
+
+## C 端产品经理面试题（京东）
+
+C 端产品经理核心考察用户洞察、数据敏感度和增长思维。以下包含京东等大厂真题。
+
+- [C 端产品经理岗位全解析](./toc-pm/01-toc-pm-role/index.html) — C 端 PM 核心能力、日常工作与面试侧重点
+- [C 端产品经理高频面试题](./toc-pm/02-toc-pm-questions/index.html) — C 端方向高频面试题与参考思路
+- [京东产品经理面试真题 48 问](./toc-pm/03-jd-pm-real/index.html) — 京东产品经理面试 48 道真题，含行为题、业务题、系统设计题
+
+---
+
+## Web3 产品经理面试题（富途）
+
+Web3 是新兴方向，面试侧重区块链认知、金融产品理解和新赛道判断力。
+
+- [富途 Web3 产品经理面试真题](./web3-pm/01-futu-web3-pm-real/index.html) — 富途证券 Web3 PM 面试真题全流程
+
+---
+
+## 大厂产品经理面试真题一览
+
+| 方向 | 文章数 | 覆盖公司 | 题型 |
+|------|--------|---------|------|
+| AI 产品经理 | 6 篇 | 字节跳动、小红书 | 校招真题、社招真题、业务场景题 |
+| B 端产品经理 | 2 篇 | — | 高频面试题、岗位解析 |
+| C 端产品经理 | 3 篇 | 京东 | 48 道真题、高频面试题 |
+| Web3 产品经理 | 1 篇 | 富途 | 社招真题 |
+
+---
+
+## 常见搜索问题
+
+**产品经理面试一般问什么？** 通常考察三类：行为题（过去经历）、业务题（产品分析/设计）、逻辑题（估算/框架）。不同方向侧重不同——AI PM 会多考技术理解，B 端 PM 多考业务流程，C 端 PM 多考用户洞察和数据。详见 [面试通关指南](./01-interview-guide/index.html)。
+
+**字节跳动产品经理面试难吗？** 字节面试以节奏快、压力大著称，通常 3-4 轮，重点考察产品感觉和逻辑拆解能力。AI 方向会追问大模型、Agent 等技术细节。我们整理了 [字节 AI PM 校招真题](./ai-pm/03-bytedance-ai-pm-real/index.html) 和 [字节 AI PM 社招真题 9 问](./ai-pm/06-bytedance-ai-pm-social-real/index.html)，可以提前感受题目难度。
+
+**没有产品经验怎么准备面试？** 先把基础模块读完建立产品认知，然后选一个方向深入准备。重点是展示你的思考框架，而不是背答案。建议从 [AI PM 岗位全解析](./ai-pm/01-ai-pm-role/index.html) 或 [C 端 PM 岗位全解析](./toc-pm/01-toc-pm-role/index.html) 开始，了解岗位全貌后再刷对应方向的面试题。
