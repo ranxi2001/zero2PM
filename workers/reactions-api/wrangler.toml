@@ -2,9 +2,6 @@ name = "zero2pm-reactions"
 main = "worker.js"
 compatibility_date = "2024-09-01"
 
-# 1. Create KV namespace:
-#    wrangler kv:namespace create REACTIONS
-# 2. Paste the returned id below:
 [[kv_namespaces]]
 binding = "REACTIONS"
-id = ""          # <-- fill in after step 1
+id = "679f5450be904f4a9ae36349b9dc0d88"

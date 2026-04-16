@@ -236,7 +236,7 @@ document.querySelectorAll(".nav-toggle-btn").forEach(function (btn) {
     if (userVote === 'like')    likeBtn.classList.add('is-liked');
     if (userVote === 'dislike') dislikeBtn.classList.add('is-disliked');
 
-    /* Fetch global counts from API (if configured) */
+    /* Fetch global counts from API */
     if (API) {
         fetch(API + '/reactions?page=' + encodeURIComponent(pageId))
             .then(function (r) { return r.json(); })
