@@ -4,6 +4,7 @@ url: https://onefly.top
 markdown: kramdown
 highlighter: rouge
 baseurl: /zero2PM
+reactions_api: ""
 
 plugins:
   - jekyll-sitemap
@@ -24,3 +25,4 @@ exclude:
   - requirements.txt
   - .gitignore
   - __pycache__
+  - workers

@@ -609,6 +609,119 @@ code, pre { font-family: var(--font-mono); }
 .hljs-attr, .hljs-attribute { color: #fbbf24; }
 .hljs-built_in { color: #38bdf8; }
 
+/* ===== Article Feedback ===== */
+.article-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 48px;
+    padding: 16px 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.feedback-reactions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.feedback-label {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.feedback-btns {
+    display: flex;
+    gap: 6px;
+}
+
+.reaction-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: color 0.18s, border-color 0.18s, background 0.18s;
+}
+
+.reaction-btn:hover {
+    color: var(--text);
+    border-color: var(--brand-border);
+    background: var(--brand-dim);
+}
+
+.reaction-btn.is-liked {
+    color: var(--brand);
+    border-color: var(--brand);
+    background: var(--brand-dim);
+}
+
+.reaction-btn.is-disliked {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(244, 63, 94, 0.1);
+}
+
+.reaction-count {
+    font-weight: 600;
+    min-width: 1ch;
+}
+
+.feedback-comment {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-secondary) !important;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none !important;
+    transition: color 0.18s, border-color 0.18s, background 0.18s;
+    white-space: nowrap;
+}
+
+.feedback-comment:hover {
+    color: var(--text) !important;
+    border-color: var(--brand-border);
+    background: var(--brand-dim);
+}
+
+html[data-theme="light"] .article-feedback {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+html[data-theme="light"] .reaction-btn.is-disliked {
+    background: rgba(225, 29, 72, 0.08);
+}
+
+@media (max-width: 680px) {
+    .article-feedback {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .feedback-reactions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
 /* ===== Prev / Next Pager ===== */
 .doc-pager {
     display: flex;
