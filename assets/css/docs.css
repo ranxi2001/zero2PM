@@ -613,113 +613,95 @@ code, pre { font-family: var(--font-mono); }
 .article-feedback {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-top: 48px;
-    padding: 16px 20px;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.02);
-}
-
-.feedback-reactions {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    gap: 10px;
+    margin-top: 36px;
+    color: var(--text-muted);
+    font-size: 0.78rem;
 }
 
 .feedback-label {
-    font-size: 0.82rem;
-    color: var(--text-secondary);
-    font-weight: 500;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    margin-right: 2px;
 }
 
 .feedback-btns {
-    display: flex;
-    gap: 6px;
+    display: inline-flex;
+    gap: 4px;
 }
 
 .reaction-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
+    gap: 4px;
+    padding: 3px 8px;
     background: none;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text-secondary);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--text-muted);
     font-family: var(--font-mono);
-    font-size: 0.82rem;
+    font-size: 0.75rem;
     cursor: pointer;
-    transition: color 0.18s, border-color 0.18s, background 0.18s;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
 }
 
+.reaction-btn svg { width: 14px; height: 14px; }
+
 .reaction-btn:hover {
-    color: var(--text);
-    border-color: var(--brand-border);
-    background: var(--brand-dim);
+    color: var(--text-secondary);
+    border-color: var(--border);
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .reaction-btn.is-liked {
     color: var(--brand);
-    border-color: var(--brand);
+    border-color: var(--brand-border);
     background: var(--brand-dim);
 }
 
 .reaction-btn.is-disliked {
     color: var(--accent);
-    border-color: var(--accent);
-    background: rgba(244, 63, 94, 0.1);
+    border-color: rgba(244, 63, 94, 0.25);
+    background: rgba(244, 63, 94, 0.08);
 }
 
-.reaction-count {
-    font-weight: 600;
-    min-width: 1ch;
+.reaction-count { font-weight: 600; }
+
+.feedback-sep {
+    color: var(--border);
+    margin: 0 2px;
+    user-select: none;
 }
 
 .feedback-comment {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text-secondary) !important;
-    font-size: 0.82rem;
-    font-weight: 500;
+    gap: 4px;
+    padding: 3px 8px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--text-muted) !important;
+    font-size: 0.78rem;
     text-decoration: none !important;
-    transition: color 0.18s, border-color 0.18s, background 0.18s;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
     white-space: nowrap;
 }
 
+.feedback-comment svg { width: 13px; height: 13px; }
+
 .feedback-comment:hover {
-    color: var(--text) !important;
-    border-color: var(--brand-border);
-    background: var(--brand-dim);
+    color: var(--text-secondary) !important;
+    border-color: var(--border);
+    background: rgba(255, 255, 255, 0.04);
 }
 
-html[data-theme="light"] .article-feedback {
-    background: rgba(0, 0, 0, 0.02);
+html[data-theme="light"] .reaction-btn:hover,
+html[data-theme="light"] .feedback-comment:hover {
+    background: rgba(0, 0, 0, 0.04);
 }
 
 html[data-theme="light"] .reaction-btn.is-disliked {
-    background: rgba(225, 29, 72, 0.08);
-}
-
-@media (max-width: 680px) {
-    .article-feedback {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-    }
-}
-
-@media (max-width: 380px) {
-    .feedback-reactions {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-    }
+    background: rgba(225, 29, 72, 0.06);
 }
 
 /* ===== Prev / Next Pager ===== */
