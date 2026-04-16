@@ -613,6 +613,7 @@ code, pre { font-family: var(--font-mono); }
 .article-feedback {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     margin-top: 36px;
     color: var(--text-muted);
